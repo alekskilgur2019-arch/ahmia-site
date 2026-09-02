@@ -34,25 +34,6 @@
       <div id="default-target"></div>
       <div class="content">
         <ol class="searchResults">
-          <li class="result" style="background: #E0FFFF">
-            <h4>
-              <a
-                href="{% url 'onion-redirect' %}?search_term={{ query.query }}&label={{ test_text.test }}&redirect_url=https://link.webropolsurveys.com/S/BB4A74DCF79654B2">
-                Take Part in Survey | Help Us Understand Searching for Sexual Images of Children
-              </a>
-            </h4>
-              <p>Have you searched for sexual images or videos of children? We want to hear from you.
-                We are carrying out anonymous research to better understand these behaviours.
-                Share your experiences to help us improve support.
-              </p>
-              <p>The survey is completely anonymous and no personal information is collected.</p>
-              <p>
-                English | ελληνικά | Nederlands | Svenska | Deutsch | Español | Français | हिन्दी |
-                Português | فارسی | Tamil | Japanese | Chinese Simplified | Chinese Traditional |
-                Suomi | Українська | नेपाली | Italiano | Русский | Polski | Bosanski | Sȑpskī | Hrvatski | ٱلْعَرَبِيَّة
-              </p>
-              <p><strong>webropol.com</strong></p>
-          </li>
           <li class="result" style="background: {{ bg_primary }}">
             <h4>
               <a
@@ -60,38 +41,49 @@
                 NEW! ReDirection Youth | Worried about your online sexual behaviour? Get help
               </a>
             </h4>
-              <p>Visit the free online self-guided program. Work through it at your own pace, completely anonymously.</p>
-              <p>Designed for young people. Accessible for all.</p>
+              <p>Visit the free online self-guided program. Work through it at your own pace, completely anonymously. Designed for young people. Accessible for all.</p>
               <p>
+                <strong>Start now:</strong>
                 <a
-                  href="{% url 'onion-redirect' %}?search_term={{ query.query }}&label={{ test_text.test }}&redirect_url=https://redirectionyouth.com/">
-                  <strong>Start now: redirectionyouth.com</strong>
-                </a>
+                  href="{% url 'onion-redirect' %}?search_term={{ query.query }}&label={{ test_text.test }}&redirect_url=https://redirectionyouth.com/">redirectionyouth.com</a>
               </p>
           </li>
           <li class="result" style="background: {{ bg_primary }}">
             <h4>
               <a
                 href="{% url 'onion-redirect' %}?search_term={{ query.query }}&label={{ test_text.test }}&redirect_url=https://www.redirectionprogram.com/">
-                {{ test_text.title_en }}
+                ReDirection | Child sexual abuse imagery harms children — getting help protects you
               </a>
             </h4>
-              <p>{{ test_text.paragraph_en_1 }}</p>
-              <p>{{ test_text.paragraph_en_2 }}</p>
+              <p>Searching for sexual images of children causes serious harm to victims and is illegal. Choosing professional help can reduce the risk of arrest and help you keep what matters most in your life.</p>
+              <p>A single click and you can take the first step to change your behaviour by accessing support through the ReDirection program.</p>
               <p>
+                <strong>Get support now:</strong>
                 <a
-                href="{% url 'onion-redirect' %}?search_term={{ query.query }}&label={{ test_text.test }}&redirect_url=https://www.redirectionprogram.com/">
-                  <strong>redirectionprogram.com</strong>
-                </a>
+                  href="{% url 'onion-redirect' %}?search_term={{ query.query }}&label={{ test_text.test }}&redirect_url=https://www.redirectionprogram.com/">redirectionprogram.com</a>
               </p>
-              <p>{{ test_text.paragraph_en_3 }}</p>
               <p>
+                <strong>Access on Tor:</strong>
                 <a
-                href="{% url 'onion-redirect' %}?search_term={{ query.query }}&label={{ test_text.test }}&redirect_url=http://redirec3yheqwd7psx2bjdw5zfmp25mv3uvrdxim23k6d4wkcpjwysad.onion/">
-                  <strong>redirec3yheqwd7psx2bjdw5zfmp25mv3uvrdxim23k6d4wkcpjwysad.onion</strong>
-                </a>
+                  href="{% url 'onion-redirect' %}?search_term={{ query.query }}&label={{ test_text.test }}&redirect_url=http://redirec3yheqwd7psx2bjdw5zfmp25mv3uvrdxim23k6d4wkcpjwysad.onion/">redirec3yheqwd7psx2bjdw5zfmp25mv3uvrdxim23k6d4wkcpjwysad.onion</a>
               </p>
-              <p>English | Español | Polski | Suomi | Latviešu | Hrvatski | Italiano | Русский</p>
+              <p><small><em>English | Español | Polski | Suomi | Latviešu | Hrvatski | Italiano | Русский</em></small></p>
+          </li>
+          <li class="result" style="background: #E0FFFF">
+            <h4>
+              <a
+                href="{% url 'onion-redirect' %}?search_term={{ query.query }}&label={{ test_text.test }}&redirect_url=https://link.webropolsurveys.com/S/BB4A74DCF79654B2">
+                Take Part in Research | Have you searched for sexual images of children?
+              </a>
+            </h4>
+              <p>Help us understand why people search for sexual images or videos of children and how support can be improved.</p>
+              <p>Take part in our anonymous research survey and share your experiences. No personal information is collected.</p>
+              <p>
+                <strong>Take the survey:</strong>
+                <a
+                  href="{% url 'onion-redirect' %}?search_term={{ query.query }}&label={{ test_text.test }}&redirect_url=https://link.webropolsurveys.com/S/BB4A74DCF79654B2">webropol.com</a>
+              </p>
+              <p><small><em>English | ελληνικά | Nederlands | Svenska | Deutsch | Español | Français | हिन्दी | Português | فارسی | Tamil | Japanese | Chinese Simplified | Chinese Traditional | Suomi | Українська | नेपाली | Italiano | Русский | Polski | Bosanski | Sȑpskī | Hrvatski | ٱلْعَرَبِيَّة</em></small></p>
           </li>
         </ol>
       </div>
