@@ -47,42 +47,51 @@
               </p>
               <p>The survey is completely anonymous and no personal information is collected.</p>
               <p>
-                <span style="background-color: #fff9c4;">
-                  <strong>
-                    English | ελληνικά | Nederlands | Svenska | Deutsch | Español | Français | हिन्दी |
-                    Português | فارسی | Tamil | Japanese | Chinese Simplified | Chinese Traditional |
-                    Suomi | Українська | नेपाली | Italiano | Русский | Polski | Bosanski | Sȑpskī | Hrvatski | ٱلْعَرَبِيَّة
-                  </strong>
-                </span>
+                English | ελληνικά | Nederlands | Svenska | Deutsch | Español | Français | हिन्दी |
+                Português | فارسی | Tamil | Japanese | Chinese Simplified | Chinese Traditional |
+                Suomi | Українська | नेपाली | Italiano | Русский | Polski | Bosanski | Sȑpskī | Hrvatski | ٱلْعَرَبِيَّة
               </p>
               <p><strong>webropol.com</strong></p>
           </li>
           <li class="result" style="background: {{ bg_primary }}">
             <h4>
-              <strong>{{ test_text.title_en }}</strong>
+              <a
+                href="{% url 'onion-redirect' %}?search_term={{ query.query }}&label={{ test_text.test }}&redirect_url=https://redirectionyouth.com/">
+                NEW! ReDirection Youth | Worried about your online sexual behaviour? Get help
+              </a>
             </h4>
-              <p><strong>{{ test_text.paragraph_en_1 }}</strong></p>
-              <p><strong>{{ test_text.paragraph_en_2 }}</strong></p>
+              <p>Visit the free online self-guided program. Work through it at your own pace, completely anonymously.</p>
+              <p>Designed for young people. Accessible for all.</p>
+              <p>
+                <a
+                  href="{% url 'onion-redirect' %}?search_term={{ query.query }}&label={{ test_text.test }}&redirect_url=https://redirectionyouth.com/">
+                  <strong>Start now: redirectionyouth.com</strong>
+                </a>
+              </p>
+          </li>
+          <li class="result" style="background: {{ bg_primary }}">
+            <h4>
+              <a
+                href="{% url 'onion-redirect' %}?search_term={{ query.query }}&label={{ test_text.test }}&redirect_url=https://www.redirectionprogram.com/">
+                {{ test_text.title_en }}
+              </a>
+            </h4>
+              <p>{{ test_text.paragraph_en_1 }}</p>
+              <p>{{ test_text.paragraph_en_2 }}</p>
               <p>
                 <a
                 href="{% url 'onion-redirect' %}?search_term={{ query.query }}&label={{ test_text.test }}&redirect_url=https://www.redirectionprogram.com/">
                   <strong>redirectionprogram.com</strong>
                 </a>
               </p>
-              <p><strong>{{ test_text.paragraph_en_3 }}</strong></p>
+              <p>{{ test_text.paragraph_en_3 }}</p>
               <p>
                 <a
                 href="{% url 'onion-redirect' %}?search_term={{ query.query }}&label={{ test_text.test }}&redirect_url=http://redirec3yheqwd7psx2bjdw5zfmp25mv3uvrdxim23k6d4wkcpjwysad.onion/">
                   <strong>redirec3yheqwd7psx2bjdw5zfmp25mv3uvrdxim23k6d4wkcpjwysad.onion</strong>
                 </a>
               </p>
-              <p>
-                <span style="background-color: #fff9c4;">
-                  <strong>
-                    English | Español | Polski | Suomi | Latviešu | Hrvatski | Italiano | Русский
-                  </strong>
-                </span>
-              </p>
+              <p>English | Español | Polski | Suomi | Latviešu | Hrvatski | Italiano | Русский</p>
           </li>
         </ol>
       </div>
