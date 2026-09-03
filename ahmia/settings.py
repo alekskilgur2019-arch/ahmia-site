@@ -61,6 +61,7 @@ HELP_DOMAINS = [
     'mielenterveystalo.fi',
     'iterapi.se',
     'redirectionprogram.com',
+    'redirectionyouth.com',
     'troubled-desire.com',
     'redirhr3cvqeq2xglvjfd2uiilycwn7nmu3rtnuwv7zthzxjrj7wf3yd.onion',
     'helplinkshtttptrdoukunonaiansstlrx4yherxk6azymviqtgle2yd.onion',
