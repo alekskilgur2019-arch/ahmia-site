@@ -38,7 +38,7 @@ SALT = config('SALT', default='secret_salt_value')
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-_2r8zw$f^8)j1n8o*3va^9wt784fqtn%^t1!4*lr2!s#1k7zyh'
+SECRET_KEY = config('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
